@@ -39,7 +39,7 @@ for i in range (total_alunos): # Pega os dados dos alunos
 opcao = 0
 while opcao != 6: # Enquanto não for a opção 6 (de sair) o while continua funcionando
     print(f'\nMenu de opções')
-    print(f'1.Boletins\n2.Buscar aluno pelo nome\n3.Aluno com maior média final\n4.Aluno com maior média final\n5.Percentual de alunos com MF > 5\n6.Sair')
+    print(f'1.Boletins\n2.Buscar aluno pelo nome\n3.Aluno com maior média final\n4.Aluno com menor média final\n5.Percentual de alunos com MF > 5\n6.Sair')
     opcao = int(input(f'Opção: '))
     if opcao ==1:
         print(f'\nBoletim:')
